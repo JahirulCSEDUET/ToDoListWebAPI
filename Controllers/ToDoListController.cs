@@ -3,7 +3,7 @@ using ToDoListWebAPI.DTO;
 namespace ToDoListWebAPI.Controllers
 {
     [ApiController]
-    [Route("[controller]")]
+    [Route("api/[controller]")]
     public class ToDoListController : ControllerBase
     {
         private static List<ToDoList> ToDoItems = new()
